@@ -1,18 +1,20 @@
 <template>
   <v-container>
-    <ProductList />
+    <SearchView />
   </v-container>
 </template>
 
 <script>
-  import ProductList from '@/components/ProductList.vue' //ProductList.vueをインポート
+  import SearchView from '@/components/SearchView.vue' //SearchView.vueをインポート
 
   export default {
     name: 'HomeView',
 
     components: {
-      ProductList,
+     SearchView,
     },
   }
 </script>
+
+
 
